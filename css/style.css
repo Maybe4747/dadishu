@@ -1,0 +1,48 @@
+.box {
+  position: relative;
+  width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+table {
+  margin: 0 auto;
+}
+td {
+  border: 2px solid gray;
+  width: 100px;
+  height: 100px;
+}
+input {
+  width: 50px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 5px;
+}
+#begin {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+table:hover {
+  cursor: url("../images/hammer_1.png"), pointer;
+  /* cursor: pointer; */
+}
+#msg {
+  display: none;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 200px;
+  text-align: center;
+  background: green;
+  font-size: 30px;
+  line-height: 100px;
+  color: #fff;
+}

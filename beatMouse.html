@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>打地鼠</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <p>
+        剩余<input type="text" value="10" id="timeInp" />秒 
+        命中<input
+          type="text"
+          value="0"
+          id="countInp"
+        />个 
+        共计<input type="text" value="0" id="scoreInp" />分
+      </p>
+      <table>
+        <tr>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+        </tr>
+        <tr>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+        </tr>
+        <tr>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+        </tr>
+        <tr>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+          <td><img src="./images/mouse.png" /></td>
+        </tr>
+      </table>
+      <p><input type="button" value="开始游戏" id="begin" /></p>
+      <div id="msg">Game over!总共获得<span id="msg_score">0</span>分！</div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
